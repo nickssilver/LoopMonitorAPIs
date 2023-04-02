@@ -1,6 +1,7 @@
+from flask import jsonify, render_template
 from api import app
-from flask import jsonify
 
 @app.route('/')
 def index():
-    return jsonify({'message': 'Hello, there'})
+    # Render the base.html template, which includes the content of report.html
+    return render_template('base.html')
