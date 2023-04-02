@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>My Report</h1>
+  <p>Generated at {{ current_time.strftime('%Y-%m-%d %H:%M:%S %Z%z') }}</p>
+  <p>Uptime: {{ uptime }}</p>
+  <p>Downtime: {{ downtime }}</p>
+{% endblock %}
