@@ -1,5 +1,6 @@
 from flask import Flask
-from routes import *
+from api.routes import *
+
 
 app = Flask(__name__, template_folder='report/templates')
 
