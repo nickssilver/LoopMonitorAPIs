@@ -4,6 +4,8 @@
 
 LoopMonitorAPIs is a backend API project designed to offer restaurant owners a comprehensive report on the online status of their stores during business hours. This system operates by polling store data on an hourly basis and processing it to create a detailed report that encompasses store uptime, downtime, and update status.
 
+</hr>
+
 ## Project Overview
 
 The primary functionality of this project revolves around two distinct endpoints:
